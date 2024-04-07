@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Image</title>
+</head>
+<!------NIYONSHUTI Jean Pierre 222003223 on 7/4/2024---->
+<body>
+    <center>
+        <h2>Upload Image</h2>
+        <form action="upload.php" method="POST" enctype="multipart/form-data">
+            <label>Userid:</label><br>
+            <input type="number" name="userid" required><br>
+            <label>Type:</label><br>
+            <input type="text" name="types" required><br>
+            <label>Location:</label><br>
+            <input type="text" name="location" required><br>
+            <label>Upload Date:</label><br>
+            <input type="date" name="upload_date" required><br>
+            <label>Upload Image:</label><br>
+                 <input type="file" name="fileUpload">
+        <button type="submit">Upload</button>
+
+        </form>
+    </center>
+</body>
+
+</html>
